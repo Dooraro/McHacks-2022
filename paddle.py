@@ -18,5 +18,5 @@ class paddle(pygame.sprite.Sprite):
 
     def moveDown(self, pixels):
         self.rect.y += pixels
-        if self.rect.y < 960:
-            self.rect.y = 0
+        if self.rect.y > 960:
+            self.rect.y = 960
