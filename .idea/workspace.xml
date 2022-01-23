@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8426008e-9862-41d7-a86c-d4b3ee662f6c" name="Default Changelist" comment="" />
+    <list default="true" id="8426008e-9862-41d7-a86c-d4b3ee662f6c" name="Default Changelist" comment="ball.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +69,28 @@
       <option name="presentableId" value="Default" />
       <updated>1642890404626</updated>
     </task>
+    <task id="LOCAL-00001" summary="ball.py">
+      <created>1642894913496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642894913496</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ball.py">
+      <created>1642895094627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642895094627</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ball.py">
+      <created>1642895132254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642895132254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,5 +104,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ball.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="ball.py" />
   </component>
 </project>
