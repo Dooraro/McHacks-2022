@@ -13,13 +13,13 @@ screen_height = 960
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('pong')
 
-paddleA = paddle(WHITE, 10, 100)
+paddleA = paddle(WHITE, 10, 200)
 paddleA.rect.x = 20
-paddleA.rect.y = 200
+paddleA.rect.y = 530
 
-paddleB = paddle(WHITE, 10, 100)
-paddleB.rect.x = 670
-paddleB.rect.y = 200
+paddleB = paddle(WHITE, 10, 200)
+paddleB.rect.x = 1250
+paddleB.rect.y = 530
 
 ball = Ball(WHITE, 10, 10)
 ball.rect.x = 345
@@ -57,13 +57,13 @@ while carryOn:
 
     all_sprites_list.update()
 
-    if ball.rect.x >= 690:
+    if ball.rect.x >= 1250:
         scoreA += 1
         ball.velocity[0] = -ball.velocity[0]
     if ball.rect.x <= 0:
         scoreB += 1
         ball.velocity[0] = -ball.velocity[0]
-    if ball.rect.y > 490:
+    if ball.rect.y > 950:
         ball.velocity[1] = -ball.velocity[1]
     if ball.rect.y < 0:
         ball.velocity[1] = -ball.velocity[1]
@@ -71,14 +71,14 @@ while carryOn:
     if pygame.sprite.collide_mask(ball, paddleA) or pygame.sprite.collide_mask(ball, paddleB):
         ball.bounce()
     screen.fill(BLACK)
-    pygame.draw.line(screen, WHITE, [349, 0], [349, 500], 5)
+    pygame.draw.line(screen, WHITE, [639, 0], [639, 960], 5)
     all_sprites_list.draw(screen)
 
     font = pygame.font.Font(None, 74)
     text = font.render(str(scoreA), 1, WHITE)
-    screen.blit(text, (250, 10))
+    screen.blit(text, (540, 10))
     text = font.render(str(scoreB), 1, WHITE)
-    screen.blit(text, (420, 10))
+    screen.blit(text, (710, 10))
 
     pygame.display.flip()
     clock.tick(60)
