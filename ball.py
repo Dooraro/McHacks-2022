@@ -5,14 +5,14 @@ BLACK = (0, 0, 0)
 
 class Ball(pygame.sprite.Sprite):
 
-    def __init__(self, color, width, height):
+    def __init__(self, colour, width, height):
         super().__init__()
 
         self.image = pygame.Surface([width, height])
         self.image.fill(BLACK)
         self.image.set_colorkey(BLACK)
 
-        pygame.draw.rect(self.image, color, [0, 0, width, height])
+        pygame.draw.rect(self.image, colour, [0, 0, width, height])
 
         self.velocity = [randint(4, 8), randint(-8, 8)]
 
