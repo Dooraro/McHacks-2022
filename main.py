@@ -5,8 +5,8 @@ from ball import Ball
 pygame.init()
 clock = pygame.time.Clock()
 
-BLACK = (0,0,0)
-WHITE = (255,255,255)
+BLACK = (0,255,0)
+WHITE = (255, 0,255)
 
 screen_width = 1280
 screen_height = 960
